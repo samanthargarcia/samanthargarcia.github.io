@@ -292,7 +292,7 @@ main {
 .img-display2 img {
     width: 100%;
     max-height: 470px;
-    aspect-ratio: 1;
+    /*aspect-ratio: 1;*/
     display: block;
     object-fit: cover;
 }
@@ -301,7 +301,7 @@ main {
     font-family: "Teko", sans-serif;
     color: #394B5A;
     font-size: 26px;
-    lettering-spacing: 0.5;
+    letter-spacing: 0.5px;
     text-align: center;
     margin: 50px;
 }
