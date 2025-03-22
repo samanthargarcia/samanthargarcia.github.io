@@ -313,6 +313,17 @@ main {
     border-radius: 18px;
 
 }
+.folder-shit-tab {
+    background-color: #788F9F;
+    width: 305px;
+    height: 150px;
+    border-radius: 18px;
+    /*align-content: center;*/
+    align-items: flex-end;
+    text-align: center;
+    position: absolute;
+    bottom: -120px;
+}
 
 
 .contact {
@@ -334,8 +345,8 @@ main {
 .contact-text {
     font-family: "Teko", sans-serif;
     color: #B91139;
-    font-size: 76px;
-    line-height: 94px;
+    font-size: 90px;
+    line-height: 100px;
     letter-spacing: 1px;
     margin-bottom: -28px;
 }
