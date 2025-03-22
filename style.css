@@ -306,25 +306,53 @@ main {
     margin: 50px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    /*grid-template-rows: 200px; !* Single row with a height of 200px *!*/
+    gap: 10px;
+    height: 80px; /* Set grid height */
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    background-color: #788F9F;
+    color: #F7F5E5;
+    border-radius: 18px 18px 0 0;
+    padding: 10px;
+    font-family: "Roboto Mono", serif;
+    font-size: 29pt;
+    font-weight: 400;
+}
+
+.folder-contact {
+    height: auto;
+    border-radius: 18px;
+    grid-template-rows: repeat(2, 1fr);
+
+    grid-template-areas:
+    "box-1"
+    "box-2"
+
+}
+.folder-contact-tab {
+    background-color: #788F9F;
+    width: 305px;
+    border-radius: 18px;
+    align-content: center;
+    align-items: flex-end;
+    text-align: center;
+    position: absolute;
+
+}
+
 .folder-shit {
     background-color: #788F9F;
     padding: 50px;
     height: auto;
-    border-radius: 18px;
-
+    border-radius: 0 18px 18px 18px;
 }
-.folder-shit-tab {
-    background-color: #788F9F;
-    width: 305px;
-    height: 150px;
-    border-radius: 18px;
-    /*align-content: center;*/
-    align-items: flex-end;
-    text-align: center;
-    position: absolute;
-    bottom: -120px;
-}
-
 
 .contact {
     background-color: #F7F5E5;
