@@ -14,6 +14,8 @@ header {
     align-items: center;
 }
 
+/*Nav*/
+
 nav {
     display: flex;
     position: relative;
@@ -38,18 +40,15 @@ nav a:hover{
     /*justify-content: center;*/
 
 }
-
 .nav-active {
     background-color: #DFDDCF;
     border: #394B5A 3px solid;
     border-radius: 18px;
 
 }
-
 .nav-icon {
     justify-content: center;
 }
-
 .nav-icon img{
     width: 100%;
     max-width: 100px;
@@ -57,7 +56,6 @@ nav a:hover{
     max-height: 100px;
     /*display: block;*/
 }
-
 .nav-text {
     justify-content: center;
     font-family: "Roboto Mono", serif;
@@ -70,6 +68,25 @@ nav a:hover{
 
 }
 
+
+.img-profile {
+    border-radius: 18px;
+    align-self: center;
+    width: 100%;
+
+}
+
+h1 {
+    font-family: Teko, sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    font-size: 18vw;
+    color: #394B5A;
+    letter-spacing: -4px;
+    text-align: left;
+}
+
 h3 {
     font-family: "Teko", sans-serif;
     color: #F7F5E5;
@@ -77,20 +94,12 @@ h3 {
     letter-spacing: 1px;
 }
 
-
-
-p1{
+p{
     font-family: "Roboto Mono", serif;
     color: #394B5A;
-    font-size: 13px;
-    lettering-spacing: 0.5px;
+    font-size: 3.3vw;
+    line-height: 7vw;
     text-align: left;
-}
-
-.file-image{
-    opacity: 80%;
-    max-width: 114px;
-    justify-content: center;
 }
 
 h4 {
@@ -126,12 +135,6 @@ h4 {
     margin-top: 50px;
 }
 
-
-h1 {
-    font-family: Teko, sans-serif;
-    font-weight: 400;
-}
-
 h2 {
     font-family: "Roboto Mono", serif;
     font-size: 29pt;
@@ -139,22 +142,9 @@ h2 {
 
 }
 
-.profile-img {
-    height: 400px;
-    width: auto;
-    border-radius: 18px;
-
-}
-.profile-bio {
-}
-
 .hero {
     padding: 30px 125px 125px;
 }
-
-/*main {*/
-/*    margin: 50px 70px;*/
-/*}*/
 
 .folder-inactive {
     background-color: #788F9F;
@@ -318,7 +308,7 @@ h2 {
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
     /*grid-template-rows: 200px; !* Single row with a height of 200px *!*/
     gap: 10px;
-    height: 80px; /* Set grid height */
+    height: 60px;
 }
 
 .grid-item {
@@ -326,15 +316,16 @@ h2 {
     justify-content: center;
     background-color: #788F9F;
     color: #F7F5E5;
-    border-radius: 18px 18px 0 0;
+    border-radius: 15px 15px 0 0;
     padding: 10px;
     font-family: "Roboto Mono", serif;
-    font-size: 29pt;
+    font-size: 7vw;
     font-weight: 400;
 }
 
 .folder-contact {
     height: auto;
+    margin-top: 50px;
     border-radius: 18px;
     grid-template-rows: repeat(2, 1fr);
 
@@ -356,6 +347,7 @@ h2 {
 
 .folder-shit {
     background-color: #788F9F;
+    margin-top: -10px;
     padding: 50px;
     height: auto;
     border-radius: 0 18px 18px 18px;
