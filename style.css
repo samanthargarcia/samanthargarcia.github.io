@@ -457,7 +457,7 @@ label {
     }
 
     .grid-item {
-        max-font-size: 15px;
+        font-size: 7vw;
         padding: 3vw;
     }
 
@@ -491,11 +491,11 @@ label {
         max-width: 75px;
         max-height: 75px;
     }
-    .grid-container {
-        height: 80px;
-    }
+    /*.grid-container {*/
+    /*    height: 80px;*/
+    /*}*/
     .grid-item {
-            font-size: 7vw;
+            font-size: 29px;
             padding: 3vw;
     }
     .folder-shit {
@@ -609,6 +609,22 @@ label {
         text-align: left;
 
     }
+    .grid-container {
+        height: 70px;
+    }
+    .grid-item {
+        font-size: 5vw;
+    }
+
+    .folder-shit {
+        margin-top: 0;
+    }
+    .contact {
+        padding: 8vw;
+    }
+    label {
+        font-size: 20px;
+    }
 }
 
 
@@ -664,10 +680,10 @@ label {
         font-size: 15px;
     }
     .grid-container {
-        height: 75px;
+        height: 70px;
     }
     .grid-item {
-        font-size: 29px;
+        font-size: 55px;
     }
 
     .hero-grid {
@@ -702,5 +718,11 @@ label {
     .img-profile {
         width: 36vw;
         max-width: 472px;
+    }
+    .folder-shit {
+        margin-top: 45px;
+    }
+    label {
+        font-size: 20px;
     }
 }

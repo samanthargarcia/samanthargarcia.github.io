@@ -2,121 +2,117 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Personal Designs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-color">
-    <header class="header">
-        <div class="header-bar">
-            <h4 style="font-size: 36px; ">SAM GARCIA</h4>
-            <h4 style="font-size: 36px;justify-content: right">PORTFOLIO</h4>
-        </div>
 
-    </header>
+<body>
+<!--    Header-->
+<header>
+    <h3>SAM GARCIA</h3>
+    <h3>PORTFOLIO</h3>
+</header>
 
-    <main>
-        <nav class="grid-container-nav">
-            <button class="button">
-                <a href="index.html">
-                    <div class="nav1">
-                        <img class="file-image" src="images/file-illustrations.png" alt="">
-                    </div>
-                    <div class="nav2">
-                        <p1>About Me</p1>
-                    </div>
-                </a>
-            </button>
-            <button class="button-active">
-                <a href="personalDesign.html">
-                    <div class="nav1">
-                        <img class="file-image" src="images/file-illustrations.png" alt="">
-                    </div>
-                    <div class="nav2">
-                        <p1>Personal Designs</p1>
-                    </div>
-                </a>
-            </button>
-            <button class="button">
-                <a href="clientWork.html">
-                    <div class="nav1">
-                        <img class="file-image" src="images/file-illustrations.png" alt="">
-                    </div>
-                    <div class="nav2">
-                        <p1>Client Work</p1>
-                    </div>
-                </a>
-            </button>
-<!--            <button class="button">-->
-<!--                <a href="universityOfUtah.html">-->
-<!--                    <div class="nav1">-->
-<!--                        <img class="file-image" src="images/file-illustrations.png" alt="">-->
-<!--                    </div>-->
-<!--                    <div class="nav2">-->
-<!--                        <p1>University Of Utah</p1>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!--            </button>-->
-        </nav>
-
-        <div>
-            <h1 style="color: #B91139; font-size: 58pt; letter-spacing: -1px; margin: 0">PERSONAL WORK</h1>
-            <h2 style="color: #394B5A; font-size: 30px">Flux's Festival</h2>
-            <div class="grid-container-pg">
-                <div>
-            <p1 style="line-height: 35px; padding-right: 50px">Reject Avenue is a festival dedicated to celebrating the Flux's movement, an avant-garde
-                    art movement of the 1960s that challenged traditional boundaries between art forms and
-                    embraced the concept of art as an experiential process. The festival emphasizes the beauty
-                    of creative processes and the unpredictability inherent in design. Below is the visual
-                    identity crafted for this unique festival.
-            </p1>
+<div class="main-grid">
+    <!--        navigation -->
+    <div class="box1">
+        <nav>
+            <a class="nav-active" href="index.html">
+                <div class="nav-icon">
+                    <img src="images/file-illustrations.png" alt="Navigation icon">
                 </div>
+                <div class="nav-text">
+                    About Me
+                </div>
+            </a>
+            <a href="clientWork.html">
+                <div class="nav-icon">
+                    <img src="images/file-illustrations.png" alt="Navigation icon">
+                </div>
+                <div class="nav-text">
+                    Client
+                </div>
+            </a>
+            <a href="universityOfUtah.html">
+                <div class="nav-icon">
+                    <img src="images/file-illustrations.png" alt="Navigation icon">
+                </div>
+                <div class="nav-text">
+                    UofU
+                </div>
+            </a>
+            <a href="personalDesign.html">
+                <div class="nav-icon">
+                    <img src="images/file-illustrations.png" alt="Navigation icon">
+                </div>
+                <div class="nav-text">
+                    Personal
+                </div>
+            </a>
+        </nav>
+    </div>
+    <!--Article-->
+    <div class="box2">
+        <article style="margin-top: 28px">
+            <h1 style="color: #B91139; font-size: 58pt; letter-spacing: -1px; margin: 0">PERSONAL WORK</h1>
+            <h2 style="color: #394B5A; font-size: 30px; margin-top: 10px">Flux's Festival</h2>
+            <p style="margin-top: 20px">Reject Avenue is a festival dedicated to celebrating the Flux's movement, an avant-garde
+                art movement of the 1960s that challenged traditional boundaries between art forms and
+                embraced the concept of art as an experiential process. The festival emphasizes the beauty
+                of creative processes and the unpredictability inherent in design. Below is the visual
+                identity crafted for this unique festival.
+            </p>
+        </article>
+        <section class="img-display">
+            <div class="box" style="grid-area: box-1">
+                <img src="images/poster-mockup.jpg" alt="">
             </div>
-        </div>
-                <section class="img-display">
-                        <div class="box" style="grid-area: box-1">
-                            <img src="images/poster-mockup.jpg" alt="">
-                        </div>
 
-                        <div class="box" style="grid-area: box-2">
-                            <img src="images/InstaPost-02.jpg" alt="">
-                        </div>
+            <div class="box" style="grid-area: box-2">
+                <img src="images/InstaPost-02.jpg" alt="">
+            </div>
 
-                        <div class="box" style="grid-area: box-3">
-                            <img src="images/InstaPost-08.jpg" alt="">
-                        </div>
+            <div class="box" style="grid-area: box-3">
+                <img src="images/InstaPost-08.jpg" alt="">
+            </div>
 
-                        <div class="box" style="grid-area: box-4">
-                            <img src="images/InstaPost-01.jpg" alt="">
-                        </div>
+            <div class="box" style="grid-area: box-4">
+                <img src="images/InstaPost-01.jpg" alt="">
+            </div>
 
-                        <div class="box" style="grid-area: box-5">
-                            <img src="images/InstaPost-05.jpg" alt="">
-                        </div>
-                    <div class="box" style="grid-area: box-6">
-                        <img src="images/storypost-04.jpg" alt="">
-                    </div>
+            <div class="box" style="grid-area: box-5">
+                <img src="images/InstaPost-05.jpg" alt="">
+            </div>
+            <div class="box" style="grid-area: box-6">
+                <img src="images/storypost-04.jpg" alt="">
+            </div>
 
-                    <div class="box" style="grid-area: box-7">
-                        <img src="images/TshirtMockUp.jpg" alt="">
-                    </div>
+            <div class="box" style="grid-area: box-7">
+                <img src="images/TshirtMockUp.jpg" alt="">
+            </div>
 
-                    <div class="box" style="grid-area: box-8">
-                        <img src="images/storypost-05.jpg" alt="">
-                    </div>
+            <div class="box" style="grid-area: box-8">
+                <img src="images/storypost-05.jpg" alt="">
+            </div>
 
-                    <div class="box" style="grid-area: box-9">
-                        <img src="images/sticker2.jpg" alt="">
-                    </div>
+            <div class="box" style="grid-area: box-9">
+                <img src="images/sticker2.jpg" alt="">
+            </div>
 
-                    <div class="box" style="grid-area: box-10">
-                        <img src="images/B09 Macbook Air M2 copy.jpg" alt="">
-                    </div>
+            <div class="box" style="grid-area: box-10">
+                <img src="images/B09 Macbook Air M2 copy.jpg" alt="">
+            </div>
 
-                    </section>
-        <footer style="align-items: center;">
-            <div class="p2">Designed & Created by Sam Garcia</div>
-        </footer>
+        </section>
+    </div>
+</div>
 
-    </main>
+<footer style="align-items: center;">
+    <div class="p2">Designed & Created by Sam Garcia</div>
+</footer>
+
 </body>
 </html>
