@@ -1,33 +1,3 @@
-body {
-    background-color:#F7F5E5;
-}
-
-.button-active {
-    border-radius: 18px;
-    background-color: #DFDDCF;
-    border: 3px solid #394B5A;
-    width: 174px;
-    height: 174px;
-    justify-content: center;
-}
-
-
-.button:hover {
-    border-radius: 18px;
-    background-color: #DFDDCF;
-    border: 3px solid #394B5A;
-    width: 174px;
-    height: 174px;
-}
-.button {
-    border: 3px solid transparent;
-    background-color: transparent;
-    width: 174px;
-    height: 174px;
-    justify-content: center;
-
-}
-
 @font-face {
     font-family: "Roboto Mono";
     src: local("fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
@@ -39,16 +9,93 @@ body {
     src: local("fonts/Teko/Teko-VariableFont_wght.ttf");
 }
 
+body {
+    background: #F7F5E5;
+    margin: 40px;
+
+}
+
+header {
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: space-between;
+    background-color: #394B5A;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+
+}
+
+nav a{
+    padding: 10px 14px;
+    justify-content: flex-start;
+    text-decoration: none;
+    /*padding-top: 100%; !* 1:1 Aspect Ratio *!*/
+
+
+
+}
+nav a:hover{
+    background-color: #DFDDCF;
+    border: #394B5A 3px solid;
+    border-radius: 18px;
+    /*justify-content: center;*/
+
+}
+
+.nav-active {
+    background-color: #DFDDCF;
+    border: #394B5A 3px solid;
+    border-radius: 18px;
+
+}
+
+.nav-icon {
+    justify-content: center;
+}
+
+.nav-icon img{
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 100px;
+    /*display: block;*/
+}
+
+.nav-text {
+    justify-content: center;
+    font-family: "Roboto Mono", serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+    color: #394B5A;
+    text-decoration: none;
+    padding-top: 5px;
+
+}
+
+h3 {
+    font-family: "Teko", sans-serif;
+    color: #F7F5E5;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+
 p1{
     font-family: "Roboto Mono", serif;
     color: #394B5A;
     font-size: 13px;
     lettering-spacing: 0.5px;
     text-align: left;
-}
-
-a {
-    text-decoration: none;
 }
 
 .file-image{
@@ -63,22 +110,22 @@ h4 {
     font-weight: 500;
 }
 
-.header {
-    margin: 50px 70px;
+/*.header {*/
+/*    margin: 50px 70px;*/
 
-}
+/*}*/
 
-.header-bar {
-    height: 85px;
-    /*max-width: 1300px;*/
-    padding-left: 40px;
-    padding-right: 40px;
-    justify-content: space-between;
-    background-color: #394B5A;
-    border-radius: 18px;
-    display: flex;
-    align-items: center;
-}
+/*.header-bar {*/
+/*    height: 85px;*/
+/*    !*max-width: 1300px;*!*/
+/*    padding-left: 40px;*/
+/*    padding-right: 40px;*/
+/*    justify-content: space-between;*/
+/*    background-color: #394B5A;*/
+/*    border-radius: 18px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
 
 .dark-bg {
     height: auto;
@@ -103,35 +150,6 @@ h2 {
 
 }
 
-nav {
-    float: right;
-    max-width: 1440px;
-}
-
-.grid-container-nav {
-    display: grid;
-    grid-template-rows:auto auto;
-}
-.grid-container-nav > div {
-    font-size: 30px;
-    text-align: center;
-    padding: 0;
-}
-.nav1 {
-    justify-content: center;
-}
-.nav2 {
-    font-weight: 600;
-    justify-content: center;
-    padding-top: 12px;
- }
-
-.nav-button {
-    margin-top: -141px;
-    padding: 70px;
-
-}
-
 .profile-img {
     height: 400px;
     width: auto;
@@ -145,9 +163,9 @@ nav {
     padding: 30px 125px 125px;
 }
 
-main {
-    margin: 50px 70px;
-}
+/*main {*/
+/*    margin: 50px 70px;*/
+/*}*/
 
 .folder-inactive {
     background-color: #788F9F;
@@ -236,8 +254,9 @@ main {
 .img-display {
     background-color: #394B5A;
     border-radius: 18px;
-    margin-top: 50px;
+    margin-top: 50px;:):
     margin-bottom: 50px;
+    margin-right: 100px;
     padding: 50px;
     display: grid;
     gap: 25px;
@@ -427,4 +446,158 @@ label {
     grid-template-areas:
     "box-1 box-1"
     "box-2 box-3"
+}
+
+/*Mobile Devices*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    body {
+        margin: 20px;
+    }
+    header {
+        height: 65px;
+        padding-left: 25px;
+        padding-right: 25px;
+        align-items: center;
+    }
+    h3 {
+        font-size: 23px;
+    }
+
+    nav {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    !important;
+
+    }
+    nav a:hover{
+        border: #394B5A 2px solid;
+
+    }
+
+    .nav-active {
+        border: #394B5A 2px solid;
+
+    }
+    .nav-text {
+        font-size: 2.5vw;
+    }
+}
+
+/*Tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        margin: 20px;
+    }
+    header {
+        height: 65px;
+        padding-left: 25px;
+        padding-right: 25px;
+        align-items: center;
+    }
+    h3 {
+        font-size: 23px;
+    }
+
+    nav {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: space-between;
+
+    }
+    .nav-icon img{
+        max-width: 75px;
+        max-height: 75px;
+    }
+}
+
+/*Small Desktops*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        height: 85px;
+        padding-left: 40px;
+        padding-right: 40px;
+        align-items: center;
+
+    }
+    h3 {
+        font-size: 36px;
+    }
+
+    nav {
+        display: grid;
+        grid-template-rows: auto auto;
+        margin-top: 40px;
+        justify-content: right;
+        height: 100%;
+
+    }
+    nav a{
+        padding: 16px 20px;
+
+    }
+    .nav-active {
+        border: #394B5A 4px solid;
+
+    }
+    nav a:hover{
+        border: #394B5A 4px solid;
+
+    }
+
+    .nav-icon img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .nav-text {
+        font-size: 20.975px;
+
+    }
+}
+
+/*Large Desktop*/
+@media screen and (min-width: 1025px) {
+    header {
+        height: 85px;
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+        align-items: center;
+        margin-top: 50px;
+
+    }
+
+    nav {
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-content: right;
+        align-items: center;
+        max-width: 1380px;
+        margin: 50px auto;
+
+        width: 100%;
+    }
+    nav a{
+        padding: 16px 20px;
+
+    }
+    .nav-active {
+        border: #394B5A 4px solid;
+
+    }
+
+    nav a:hover{
+        border: #394B5A 4px solid;
+
+    }
+    .nav-text {
+        font-size: 20.975px;
+
+    }
+
+    h3 {
+        font-size: 36px;
+    }
 }
