@@ -1,14 +1,3 @@
-@font-face {
-    font-family: "Roboto Mono";
-    src: local("fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
-
-}
-
-@font-face {
-    font-family: "Teko";
-    src: local("fonts/Teko/Teko-VariableFont_wght.ttf");
-}
-
 body {
     background: #F7F5E5;
     margin: 40px;
