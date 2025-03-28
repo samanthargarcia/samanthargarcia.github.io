@@ -75,14 +75,15 @@ nav a:hover{
     align-self: center;
     width: 100%;
 
+
 }
 
 h1 {
     font-family: Teko, sans-serif;
     font-weight: 400;
     margin-top: 5px;
-    margin-bottom: -20px;
-    font-size: 18vw;
+    /*margin-bottom: -4vw;*/
+    font-size: 11vw;
     color: #394B5A;
     letter-spacing: -4px;
     text-align: left;
@@ -101,6 +102,7 @@ p{
     font-size: 3.3vw;
     line-height: 26px;
     text-align: left;
+    margin-top: -9vw;
 }
 
 .p2{
@@ -301,6 +303,7 @@ h2 {
     /*grid-template-rows: 200px; !* Single row with a height of 200px *!*/
     gap: 10px;
     height: 12vw;
+    margin-top: 50px;
 }
 
 .grid-item {
@@ -317,7 +320,7 @@ h2 {
 
 .folder-contact {
     height: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 18px;
     grid-template-rows: repeat(2, 1fr);
 
@@ -424,6 +427,9 @@ label {
         padding-right: 25px;
         align-items: center;
     }
+    h1 {
+        font-size: 16vw;
+    }
     h3 {
         font-size: 23px;
     }
@@ -454,6 +460,7 @@ label {
         max-font-size: 15px;
         padding: 3vw;
     }
+
 }
 
 /*Tablets*/
@@ -506,7 +513,8 @@ label {
 
     }
     h1 {
-        font-size: 142px
+        font-size: 109px;
+        margin-top: -36px;
     }
 
     h3 {
@@ -517,29 +525,36 @@ label {
         font-size: 15px;
     }
 
+    /*nav {*/
+    /*    display: grid;*/
+    /*    grid-template-rows: auto auto;*/
+    /*    margin-top: 40px;*/
+    /*    justify-content: right;*/
+    /*    !*height: 100%;*!*/
+
+    /*}*/
+
     nav {
-        display: grid;
-        grid-template-rows: auto auto;
-        margin-top: 40px;
-        justify-content: right;
-        /*height: 100%;*/
-
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        justify-content: space-between;
     }
 
-    nav a {
-        padding: 16px 20px;
 
-    }
+    /*nav a {*/
+    /*    padding: 16px 20px;*/
 
-    .nav-active {
-        border: #394B5A 4px solid;
+    /*}*/
 
-    }
+    /*.nav-active {*/
+    /*    border: #394B5A 4px solid;*/
 
-    nav a:hover {
-        border: #394B5A 4px solid;
+    /*}*/
 
-    }
+    /*nav a:hover {*/
+    /*    border: #394B5A 4px solid;*/
+
+    /*}*/
 
     .nav-icon img {
         max-width: 100px;
@@ -565,22 +580,34 @@ label {
 
     /*}*/
 
-    .main-grid {
+    /*.main-grid {*/
+    /*    display: grid;*/
+    /*    grid-template-columns:auto auto;*/
+    /*    gap: 50px;*/
+    /*}*/
+
+    /*.box1 {*/
+    /*    order: 2;*/
+    /*}*/
+
+    /*.box2 {*/
+    /*    margin-top: 40px;*/
+    /*    order: 1;*/
+    /*}*/
+    .img-profile {
+        width: 350px;
+    }
+    .hero-grid {
         display: grid;
         grid-template-columns:auto auto;
-        gap: 50px;
+        gap: 7vw;
+        margin-top: 50px
     }
 
-    .box1 {
-        order: 2;
-    }
+    .hero-grid > div {
+        font-size: 30px;
+        text-align: left;
 
-    .box2 {
-        margin-top: 40px;
-        order: 1;
-    }
-    .img-profile {
-        width: 475px;
     }
 }
 
@@ -595,8 +622,6 @@ label {
         padding-left: 40px;
         padding-right: 40px;
         align-items: center;
-        margin-top: 50px;
-
     }
 
     nav {
@@ -628,7 +653,8 @@ label {
     }
 
     h1 {
-        font-size: 142px
+        font-size: 11vw;
+        margin-top: -35px;
     }
 
     h3 {
@@ -652,6 +678,7 @@ label {
     }
 
     .hero-grid > div {
+        margin: auto;
         font-size: 30px;
         text-align: left;
 
@@ -661,6 +688,8 @@ label {
         display: grid;
         grid-template-columns:auto auto;
         gap: 50px;
+        margin: 0 auto;
+        max-width: 1380px;
     }
 
     .box1 {
@@ -671,6 +700,7 @@ label {
         order: 1;
     }
     .img-profile {
-        width: 475px;
+        width: 36vw;
+        max-width: 472px;
     }
 }
