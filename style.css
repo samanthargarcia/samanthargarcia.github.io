@@ -108,7 +108,7 @@ p{
 .p2{
     font-family: "Teko", sans-serif;
     color: #394B5A;
-    font-size: 5vw;
+    font-size: 25px;
     letter-spacing: 0.5px;
     text-align: center;
     margin: 25px;
@@ -238,7 +238,6 @@ h2 {
     border-radius: 18px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right: 100px;
     padding: 50px;
     display: grid;
     gap: 25px;
