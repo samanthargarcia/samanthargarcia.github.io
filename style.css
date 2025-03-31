@@ -254,9 +254,9 @@ h2 {
     background-color: #394B5A;
     border-radius: 18px;
     margin-top: 50px;
-    padding: 50px;
+    padding: 6vw;
     display: grid;
-    gap: 25px;
+    gap: 2vw;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
 
