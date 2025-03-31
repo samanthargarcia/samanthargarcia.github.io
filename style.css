@@ -238,9 +238,9 @@ h2 {
     border-radius: 18px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding: 50px;
+    padding: 6vw;
     display: grid;
-    gap: 25px;
+    gap: 2vw;
     grid-template-rows: repeat(8, 1fr);
     grid-template-columns: repeat(4, 1fr);
 
@@ -339,7 +339,7 @@ h2 {
 .contact {
     background-color: #F7F5E5;
     height: auto;
-    padding: 5vw;
+    padding: 4vw;
     border-radius: 18px;
     display: grid;
     /*gap: 25px;*/
@@ -353,14 +353,15 @@ h2 {
 
 /*other response pages */
 
-/*.contact-text {*/
-/*    font-family: "Teko", sans-serif;*/
-/*    color: #B91139;*/
-/*    font-size: 90px;*/
-/*    line-height: 100px;*/
-/*    letter-spacing: 1px;*/
-/*    margin-bottom: -28px;*/
-/*}*/
+.contact-text {
+    font-family: "Teko", sans-serif;
+    color: #B91139;
+    font-size: 7vw;
+    line-height: 8vw;
+    letter-spacing: 1px;
+    margin-top: auto;
+    margin-bottom: -28px;
+}
 
 input[type=text], select, textarea {
     background-color: #DFDDCF;
@@ -459,6 +460,9 @@ label {
         font-size: 7vw;
         padding: 3vw;
     }
+    .contact-text {
+        display: none;
+    }
 
 }
 
@@ -499,6 +503,9 @@ label {
     }
     .folder-shit {
         margin-top: 0;
+    }
+    .contact-text {
+        display: none;
     }
 }
 
@@ -624,6 +631,12 @@ label {
     label {
         font-size: 20px;
     }
+    input[type=text], select, textarea {
+        height: 64px;
+    }
+    .contact-text {
+        display: none;
+    }
 }
 
 
@@ -719,9 +732,32 @@ label {
         max-width: 472px;
     }
     .folder-shit {
-        margin-top: 45px;
+        margin-top: 43px;
     }
     label {
         font-size: 20px;
+    }
+
+    .contact {
+        display: grid;
+        grid-template-columns:auto auto;
+    }
+    .contact-text {
+        font-size: 110px;
+        line-height: 130px;
+
+    }
+
+    input[type=submit] {
+        font-size: 2vw;
+        width: 19vw;
+    }
+
+    input[type=text], selecxt, textarea {
+        height: 45px;
+        padding: 1.5vw;
+    }
+    .img-display {
+        padding: 50px;
     }
 }
