@@ -26,9 +26,7 @@ nav {
 
 nav a{
     padding: 10px 14px;
-    /*justify-content: flex-start;*/
     text-decoration: none;
-    /*padding-top: 100%; !* 1:1 Aspect Ratio *!*/
 
 
 
@@ -119,23 +117,6 @@ h4 {
     color: #F7F5E5;
     font-weight: 500;
 }
-
-/*.header {*/
-/*    margin: 50px 70px;*/
-
-/*}*/
-
-/*.header-bar {*/
-/*    height: 85px;*/
-/*    !*max-width: 1300px;*!*/
-/*    padding-left: 40px;*/
-/*    padding-right: 40px;*/
-/*    justify-content: space-between;*/
-/*    background-color: #394B5A;*/
-/*    border-radius: 18px;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*}*/
 
 .dark-bg {
     height: auto;
@@ -273,14 +254,11 @@ h2 {
     background-color: #394B5A;
     border-radius: 18px;
     margin-top: 50px;
-    /*max-width: 964px;*/
     padding: 50px;
     display: grid;
     gap: 25px;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
-
-    /*justify-items: center;*/
 
     grid-template-areas:
     "box-1 box-1"
@@ -291,15 +269,44 @@ h2 {
 .img-display2 img {
     width: 100%;
     max-height: 470px;
-    /*aspect-ratio: 1;*/
     display: block;
     object-fit: cover;
 }
 
+.img-display3 {
+    background-color: #394B5A;
+    border-radius: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 6vw;
+    display: grid;
+    gap: 2vw;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+
+    /*justify-items: center;*/
+
+    grid-template-areas:
+    "box-1 box-2"
+    "box-3 box-3"
+    "box-4  box-5"
+    "box-6  box-6"
+    "box-7  box-8"
+}
+
+.img-display3 img {
+    width: 100%;
+    height: 520px;
+    aspect-ratio: 1;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    /*grid-template-rows: 200px; !* Single row with a height of 200px *!*/
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     height: 12vw;
     margin-top: 50px;
@@ -342,16 +349,7 @@ h2 {
     padding: 4vw;
     border-radius: 18px;
     display: grid;
-    /*gap: 25px;*/
-    /*grid-template-columns: repeat(2, 1fr);*/
-    /*align-content: center;*/
-    /*align-items: flex-end;*/
-
-    /*grid-template-areas:*/
-    /*"box-1 box-2"*/
 }
-
-/*other response pages */
 
 .contact-text {
     font-family: "Teko", sans-serif;
@@ -494,9 +492,6 @@ label {
         max-width: 75px;
         max-height: 75px;
     }
-    /*.grid-container {*/
-    /*    height: 80px;*/
-    /*}*/
     .grid-item {
             font-size: 29px;
             padding: 3vw;
@@ -529,39 +524,14 @@ label {
 
     p {
         font-size: 15px;
+        margin-top: -10vw;
     }
-
-    /*nav {*/
-    /*    display: grid;*/
-    /*    grid-template-rows: auto auto;*/
-    /*    margin-top: 40px;*/
-    /*    justify-content: right;*/
-    /*    !*height: 100%;*!*/
-
-    /*}*/
 
     nav {
         margin-top: 3vw;
         margin-bottom: 3vw;
         justify-content: space-between;
     }
-
-
-    /*nav a {*/
-    /*    padding: 16px 20px;*/
-
-    /*}*/
-
-    /*.nav-active {*/
-    /*    border: #394B5A 4px solid;*/
-
-    /*}*/
-
-    /*nav a:hover {*/
-    /*    border: #394B5A 4px solid;*/
-
-    /*}*/
-
     .nav-icon img {
         max-width: 100px;
         max-height: 100px;
@@ -571,35 +541,6 @@ label {
         font-size: 20.975px;
 
     }
-
-    /*.hero-grid {*/
-    /*    display: grid;*/
-    /*    grid-template-columns:auto auto;*/
-    /*    gap: 7vw;*/
-    /*    margin-top: 50px*/
-
-    /*}*/
-
-    /*.hero-grid > div {*/
-    /*    font-size: 30px;*/
-    /*    text-align: left;*/
-
-    /*}*/
-
-    /*.main-grid {*/
-    /*    display: grid;*/
-    /*    grid-template-columns:auto auto;*/
-    /*    gap: 50px;*/
-    /*}*/
-
-    /*.box1 {*/
-    /*    order: 2;*/
-    /*}*/
-
-    /*.box2 {*/
-    /*    margin-top: 40px;*/
-    /*    order: 1;*/
-    /*}*/
     .img-profile {
         width: 350px;
     }
@@ -681,7 +622,7 @@ label {
     }
 
     h1 {
-        font-size: 11vw;
+        font-size: 158px;
         margin-top: -35px;
     }
 
@@ -690,6 +631,7 @@ label {
     }
     p {
         font-size: 15px;
+        margin-top: -154px;
     }
     .grid-container {
         height: 70px;
@@ -701,7 +643,7 @@ label {
     .hero-grid {
         display: grid;
         grid-template-columns:auto auto;
-        gap: 7vw;
+        gap: 70px;
         margin-top: 50px
     }
 
